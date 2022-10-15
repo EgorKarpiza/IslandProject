@@ -6,7 +6,6 @@ import com.javarush.karpiza.animals.predator.*;
 import com.javarush.karpiza.island.Island;
 import com.javarush.karpiza.island.Location;
 
-import java.util.stream.Collectors;
 
 
 public class Statistics implements Runnable {
