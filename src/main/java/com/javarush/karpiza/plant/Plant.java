@@ -1,5 +1,5 @@
 package com.javarush.karpiza.plant;
-
+//Трава
 public class Plant {
 
     private final int weight;

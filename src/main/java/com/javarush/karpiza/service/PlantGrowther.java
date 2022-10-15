@@ -6,6 +6,7 @@ import com.javarush.karpiza.plant.Plant;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+//Выращиваем растения
 public class PlantGrowther implements Runnable {
 
     public static int maxCount = Plant.maxCount;

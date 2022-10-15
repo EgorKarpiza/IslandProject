@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 @Target(value= ElementType.TYPE)
 @Retention(value= RetentionPolicy.RUNTIME)
 
+//Создаём аннотацию, при помощи которой, можно будет контролировать что едят животные
 public @interface Diet {
 
     int eatWolf() default 0;
@@ -26,5 +27,4 @@ public @interface Diet {
     int eatDuck() default 0;
     int eatCaterpillar() default 0;
     int eatPlants() default 0;
-
 }

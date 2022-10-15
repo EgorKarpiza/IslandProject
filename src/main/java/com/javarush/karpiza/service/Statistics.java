@@ -6,13 +6,12 @@ import com.javarush.karpiza.animals.predator.*;
 import com.javarush.karpiza.island.Island;
 import com.javarush.karpiza.island.Location;
 
-
+//Подводим статистику
 
 public class Statistics implements Runnable {
 
     Location[][] locations;
     Island island;
-
 
     public Statistics(Island island) {
         this.island = island;
